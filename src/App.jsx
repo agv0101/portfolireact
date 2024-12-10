@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState,useEffect } from 'react'
 import { Routes, Route, useLocation, Navigate } from 'react-router-dom';
 import "./components/styles.css"
 
@@ -14,6 +14,11 @@ export default function App(){
     const location = useLocation();
     const [page,setPage]=useState(location.pathname);
 
+    useEffect(() => {
+        if (location.pathname !== page) {
+            setPage(location.pathname || "/home");
+        }
+    }, [location.pathname, page]);
 
    return(
     <>
