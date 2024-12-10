@@ -1,0 +1,35 @@
+[
+    {
+        "id":1,
+        "name":"Ecommerce",
+        "description":"Página hecha a React de un catálogo de productos, sus mejores ofertas y la posibildad de añadir productos.",
+        "image":"./img/projects/proyecto1.png",
+        "source":"https://kaleidoscopic-boba-af3ecc.netlify.app/"
+
+    },
+    {
+        "id":2,
+        "name":"League of Legends",
+        "description":"Página sencilla hecha a React de todos los campeones de League of Legends filtrables por región.",
+        "image":"./img/projects/proyecto2.png",
+        "source":"https://fantastic-league-252780.netlify.app/"
+
+    },
+    {
+        "id":3,
+        "name":"Portafolio LLM",
+        "description":"Mi primer portafolio hecho con HTML y CSS, simple y además sale Fernando Alonso.",
+        "image":"./img/projects/proyecto3.png",
+        "source":"https://albertoguerreroproyectollm.netlify.app/"
+
+    },
+    {
+        "id":4,
+        "name":"Casas modulares",
+        "description":"Página hecha a React para mostrar casas modulares. Capaz de cargar más elementos.",
+        "image":"./img/projects/proyecto4.png",
+        "source":"https://ephemeral-pika-f723db.netlify.app/"
+
+    }
+
+]

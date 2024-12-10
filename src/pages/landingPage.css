@@ -1,0 +1,54 @@
+
+.background-landing{
+    background: url('/public/img/background-image-lp.jpg');
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background-position: center; /* Centra la imagen */
+}
+.title-and-projects {
+    max-width: 1200px;
+    margin: 0 auto; /* Centra el contenido horizontalmente */
+    text-align: center;
+}
+
+/* Estilo del título */
+.landingpage-title {
+    
+    padding: 20px;
+    
+    color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra */
+    z-index: 1; /* Eleva el título visualmente */
+}
+
+.landingpage-title h3 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.landingpage-title h5 {
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin: 5px 0 0;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    color: grey
+}
+
+/* Estilo general para la LandingPage */
+.landingpage-container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr)); /* Dos columnas iguales */
+    grid-auto-rows: 1fr; /* Fuerza a todas las filas a tener la misma altura */
+    gap: 30px;
+    padding: 20px;
+    justify-content: center; /* Centra las columnas horizontalmente */
+    align-items: start; /* Asegura que el contenido dentro esté alineado al inicio */
+    margin: 0 auto; /* Centra el contenedor */
+    max-width: 1200px; /* Limita el ancho máximo */
+}

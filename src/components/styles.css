@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "Sakana";
+    src: url(/public/Sakana.ttf);
+}
+:root{
+    --button-color: hsl(42, 100%, 52%);
+    --header-footer: hsl(0, 0%, 27%);
+}
+/* General */
+body, h1, p, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+
+
+
+
