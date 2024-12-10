@@ -17,7 +17,7 @@ export default function Footer({page}){
                     <Link to="#"><i className="fas fa-envelope"></i></Link>
                     <Link to="#"><i className="fab fa-whatsapp"></i></Link>
                     <Link to="#"><i className="fab fa-telegram"></i></Link>
-                    <Link to="#"><i className="fab fa-github"></i></Link>
+                    <Link to="https://github.com/agv0101"><i className="fab fa-github"></i></Link>
                 </>
                 :"")}
             </div>
